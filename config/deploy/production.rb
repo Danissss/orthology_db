@@ -15,12 +15,9 @@ set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rben
 set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 set :rbenv_roles, :all # default value
 
-# role :app, %w{foodb@do-web-2}
-# role :web, %w{foodb@do-web-2}
-# role :db,  %w{foodb@do-web-2}
-role :app, %w{orth@167.172.242.202}
-role :web, %w{orth@167.172.242.202}
-role :db,  %w{orth@167.172.242.202}
+role :app, %w{orthdb@174.138.47.251}
+role :web, %w{orthdb@174.138.47.251}
+role :db,  %w{orthdb@174.138.47.251}
 
 
 # role-based syntax

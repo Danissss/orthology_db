@@ -8,7 +8,7 @@ set :use_sudo, false
 set :linked_files, []
 set :linked_dirs, %w{tmp/tmp_fasta log tmp/pids tmp/sockets 
   tmp/csv tmp/database_fasta_db tmp/filtered_result tmp/uploads}
-set :keep_releases, 3
+set :keep_releases, 2
 
 namespace :deploy do
   desc 'Start application'

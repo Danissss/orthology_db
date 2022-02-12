@@ -36,7 +36,7 @@ group :production do
   gem 'execjs'
   gem 'libv8', '~> 7.3.492'
   gem 'mini_racer', '0.2.6'
-  gem 'puma', '~> 4.3.7'
+  gem 'puma', '~> 5.6.2'
   gem 'puma_worker_killer'
 end
 

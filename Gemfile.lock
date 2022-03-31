@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/turbolinks/turbolinks-classic.git
+  remote: https://github.com/turbolinks/turbolinks-classic.git
   revision: 80216ce9d89920bf073709405e3fce6d0a3ccd9a
   specs:
     turbolinks (3.0.0)
@@ -159,7 +159,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     mini_racer (0.2.6)
@@ -170,12 +172,12 @@ GEM
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
     newrelic_rpm (6.14.0)
-    nio4r (2.5.4)
+    nio4r (2.5.8)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     popper_js (1.14.7)
     public_suffix (4.0.6)
-    puma (4.3.7)
+    puma (4.3.12)
       nio4r (~> 2.0)
     puma_worker_killer (0.3.1)
       get_process_mem (~> 0.2)
@@ -343,7 +345,7 @@ DEPENDENCIES
   newrelic_rpm
   nokogiri
   popper_js (~> 1.14.5)
-  puma (~> 4.3.7)
+  puma (~> 4.3.12)
   puma_worker_killer
   rails (~> 5.2.0)
   recaptcha

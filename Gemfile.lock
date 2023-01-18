@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/turbolinks/turbolinks-classic.git
+  remote: https://github.com/turbolinks/turbolinks-classic.git
   revision: 80216ce9d89920bf073709405e3fce6d0a3ccd9a
   specs:
     turbolinks (3.0.0)
@@ -159,7 +159,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     mini_racer (0.2.6)
@@ -180,7 +182,7 @@ GEM
     puma_worker_killer (0.3.1)
       get_process_mem (~> 0.2)
       puma (>= 2.7)
-    rack (2.2.3)
+    rack (2.2.6.2)
     rack-protection (2.1.0)
       rack
     rack-test (1.1.0)
